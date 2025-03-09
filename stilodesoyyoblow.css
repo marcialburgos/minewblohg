@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blok{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+
+    background-image: url('https://files.algoreducation.com/production-ts/__S3__4c06b78a-746f-4597-a264-0fec8d25976f');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    }
+ 
+    [transition-style="in:circle:hesitate"] {
+      animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-hesitate both;
+    }
+
+
+
+header {
+    background-color: #333;
+    color: #27a5a5;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    color: #ffffff;
+    
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+  
+  ul li {
+    display: inline-block;  
+            margin: 10px;           
+  }
+  h2{
+    color: rgb(99, 101, 99); 
+  }
+  .x{
+    color: #fafafa;
+    background: #333;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .bios{
+    width: 800px;            
+    height: 560px;           
+    background-color: #06bcef9f; 
+    color: white;            
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    font-size: 16px;        
+    border-radius: 15px;      
+    margin-left: 200px;
+    margin-bottom: 50px;
+margin-right: 200px;
+border: solid black 1px;
+  }
+  ul{
+    width: 700px;            
+    height: 60px;           
+    background-color: #ef9a069f; 
+    color: white;            
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    font-size: 16px;        
+    border-radius: 15px;      
+    margin-left: 250px;
+    margin-bottom: 50px;
+    border: solid black 1px;
+  }
+  .mjp{
+    background-color: #333;
+    margin-bottom:0px ;
+  }
+
+.macha{
+  display: flex;
+  width: 600px;
+  height: 430px;
+  margin-left: 27%;
+  border-radius: 15px;
+}
+.macha img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+.macha img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+.m{
+  width: 395px;
+  height: 45px;
+  background-color: #0237f8;
+  border-radius: 10px;
+  margin-left: 35%;
+  color: #ffffff;
+ 
+  
+}
+.video{
+  border-radius:100px ;
+  height: 0px;
+  width: 0px;
+}
